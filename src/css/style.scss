@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font-stack: "Open Sans", sans-serif;
+$primary-color: #000;
+
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+}
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #555;
+    }
+  }
+}
+nav {
+  .btn {
+    font-size: 13px;
+    padding: 10px 14px;
+    color: #fff;
+  }
+}
