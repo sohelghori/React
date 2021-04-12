@@ -72,8 +72,9 @@ class Contact extends React.Component {
                             <Form.Control as="textarea" rows={3} placeholder="Message" value={this.state.Message} onChange={this.handleChange} name="Message" />
                           </Form.Group>
                         </Col>
-                        <Col md={12}>
-                            <Button variant="outline-primary" type="submit">
+                        <Col md={12} className="py-10">
+                            <Button className="w-100 btn btn-primary text-white
+                            " variant="outline-primary" type="submit">
                               Submit
                             </Button>
                         </Col>
